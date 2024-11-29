@@ -1,12 +1,12 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function ExplorePage() {
+export default function HomePage() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Explore Bi3oshra</Text>
+            <Text style={styles.title}>Welcome to Bi3oshra!</Text>
             <Text style={styles.text}>
-                This is the Explore Page where you can showcase features.
+                This is your custom Home Page. Start building your app here.
             </Text>
         </View>
     );
@@ -17,7 +17,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#e6f7ff',
+        backgroundColor: '#fff5e6',
     },
     title: {
         fontSize: 24,
@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
     },
     text: {
         fontSize: 16,
-        color: '#333',
+        color: '#555',
     },
 });
+
 

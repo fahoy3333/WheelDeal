@@ -1,11 +1,13 @@
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
 
-export default function PaymentPage() {
+export default function HomePage() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Payment Page</Text>
-            <Text style={styles.text}>Add your payment details or logic here!</Text>
+            <Text style={styles.title}>Welcome to Bi3oshra!</Text>
+            <Text style={styles.text}>
+                This is your custom Home Page. Start building your app here.
+            </Text>
         </View>
     );
 }
